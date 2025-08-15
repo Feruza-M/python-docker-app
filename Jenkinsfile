@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git branch: 'main', url: 'git@github.com:Feruza_M/python-docker-app.git'
+                git branch: 'main', url: 'git@github.com:Feruza-M/python-docker-app.git'
             }
         }
 
